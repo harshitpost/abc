@@ -15,7 +15,7 @@ paths:
         - name: id
           in: query
           description: ID of the user
-          required: true
+          required: false
           schema:
             type: integer
             format: int32
