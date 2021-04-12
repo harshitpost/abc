@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   version: '1.0'
-  title: pqr
+  title: xyz
 servers:
   - url: 'http://localhost:3000'
 paths:
@@ -15,7 +15,7 @@ paths:
         - name: id
           in: query
           description: ID of the user
-          required: false
+          required: true
           schema:
             type: integer
             format: int32
