@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   version: '1.0'
-  title: updaed
+  title: xyz
 servers:
   - url: 'http://localhost:3000'
 paths:
@@ -19,6 +19,7 @@ paths:
           schema:
             type: integer
             format: int32
+            type: string
       responses:
         '200':
           description: 'Sample response: Details about a user by ID'
